@@ -1,0 +1,43 @@
+# Node modules and build outputs
+node_modules/
+.next/
+out/
+build/
+
+# Dependency lockfiles
+pnpm-lock.yaml
+*.lock
+
+# Environment variables
+.env*
+.env.local
+.env.development
+.env.production
+.env.test
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Vercel deployment folder
+.vercel/
+
+# Husky hooks
+.husky/
+
+# Git and system files
+.git/
+.gitignore
+.DS_Store
+Thumbs.db
+
+# Coverage / test reports
+coverage/
+*.log
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Misc temporary files
+*.tmp
+*.bak
