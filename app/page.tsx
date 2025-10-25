@@ -16,7 +16,12 @@ const STOCK_SYMBOLS = [
   'CRM',
   'PYPL',
   'IBM',
-];
+  'CSCO',
+  'WMT',
+  'JPM',
+  'QCOM',
+  'AMAT',
+].sort();
 
 export default function HomePage() {
   return (
