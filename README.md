@@ -30,6 +30,17 @@ cd tensorwave-demo.git
 pnpm install
 ```
 
+### 3. Get free Alphavantage API Key
+
+[https//www.alphavantage.co/support/#api-key](https//www.alphavantage.co/support/#api-key)
+
+### 4. Add local environment file .env.local to root
+
+```
+//.env.local
+NEXT_PUBLIC_ALPHAVANTAGE_KEY=MY_KEY
+```
+
 ### 3. Run the development server
 
 ```bash
@@ -80,6 +91,8 @@ Set up automatically after pnpm install.
 - ✅ Add vercel.json for custom redirects and env variables
 - ✅ Add Prettier CI check to GitHub Actions
 - ✅ Add automated tests in pre-push hook
+- ✅ Add logos for all companise
+- ✅ Chart price history in line graph
 
 ## 🧠 Author
 
