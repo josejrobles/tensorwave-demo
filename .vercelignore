@@ -1,0 +1,47 @@
+# Node modules and local dependencies
+
+node_modules/
+
+# Build outputs and cache
+
+.next/
+out/
+build/
+coverage/
+
+# System and environment files
+
+.DS_Store
+Thumbs.db
+.env\*
+
+# Editor and tooling configs
+
+.vscode/
+.idea/
+.husky/
+
+# Git and CI files
+
+.git/
+.gitignore
+.github/
+
+# Logs and temporary files
+
+_.log
+_.tmp
+\*.bak
+
+# Vercel local config
+
+.vercel/
+
+# Test files (if you add testing later)
+
+_.test._
+_.spec._
+
+# Lint-staged cache (optional)
+
+.tmp/
