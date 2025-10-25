@@ -1,5 +1,6 @@
 'use client';
 import DetailList from '@/components/DetailList';
+import { formatMarketCap } from '@/lib/formatters';
 import { useState } from 'react';
 
 interface CompanyOverviewProps {
@@ -22,7 +23,10 @@ export default function CompanyOverview({ overview }: CompanyOverviewProps) {
     { label: 'Exchange', value: overview.Exchange },
     { label: 'Sector', value: overview.Sector },
     { label: 'Industry', value: overview.Industry },
-    { label: 'Market Cap', value: overview.MarketCapitalization },
+    {
+      label: 'Market Cap',
+      value: formatMarketCap(overview.MarketCapitalization || 'N/A'),
+    },
   ];
 
   return (
